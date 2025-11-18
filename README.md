@@ -101,12 +101,12 @@ The tool uses a **Sequential Multi-Agent Architecture**:
 
 ### **User:**
 
-“chest pain bengaluru”
+“jaw misalignment bengaluru”
 
 ### **Agent Flow:**
 
-1. Symptom agent → returns **Cardiologist**
-2. Doctor agent → calls search agent with specialization=Cardiologist, location=Bengaluru
+1. Symptom agent → returns **Orthodontist**
+2. Doctor agent → calls search agent with specialization=Orthodontist, location=Bengaluru
 3. Search agent → collects top 3 cardiologists from Practo, Apollo, Lybrate
 4. Results printed to user
 
